@@ -17,34 +17,34 @@
     $e = 6;
 
     if ($a == 5) {
-        echo '<h1 style="color : ">' . $a. '</h1>';
+        echo '<h1 style="color : red">' . $a. '</h1>';
     }
     if ($b < 2) {
-        echo '<h1 style="color : red">' . $b. '</h1>';
+        echo '<h1 style="color : brown">' . $b. '</h1>';
     }
     if ($c > 5) {
-        echo '<h1 style="color : red">' . $c. '</h1>';
+        echo '<h1 style="color : gray">' . $c. '</h1>';
     }
     if ($d <= 2) {
-        echo '<h1 style="color : red">' . $d. '</h1>';
+        echo '<h1 style="color : pink">' . $d. '</h1>';
     }
     if ($e > 4) {
-        echo '<h1 style="color : red">' . $e. '</h1>';
+        echo '<h1 style="color : yellow">' . $e. '</h1>';
     }
     if ($e < 10) {
-        echo '<h1 style="color : red">' . $e. '</h1>';
+        echo '<h1 style="color : green">' . $e. '</h1>';
     }
     if ($d >= 2) {
-        echo '<h1 style="color : red">' . $d. '</h1>';
+        echo '<h1 style="color : orange">' . $d. '</h1>';
     }
     if ($c < 8) {
-        echo '<h1 style="color : red">' . $c. '</h1>';
+        echo '<h1 style="color : navy">' . $c. '</h1>';
     }
     if ($b < 1.1) {
-        echo '<h1 style="color : red">' . $b. '</h1>';
+        echo '<h1 style="color : blue-green">' . $b. '</h1>';
     }
     if ($a > 2) {
-        echo '<h1 style="color : red">' . $a. '</h1>';
+        echo '<h1 style="color : emerald">' . $a. '</h1>';
     }
     ?>
     

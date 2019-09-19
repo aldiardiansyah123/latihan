@@ -43,15 +43,15 @@ if (isset($_SESSION['login'])) {
                 <form action="" method="POST">
                 <div class="form-group">
                     <labe for="">Nama</labe>
-                    <input type="text" name="nama" class="form-control">
+                    <input type="text" name="nama" class="form-control" Required>
                 </div>
                 <div class="form-group">
                     <labe for="">Kelas</labe>
-                    <input type="text" name="kelas" class="form-control">
+                    <input type="text" name="kelas" class="form-control" Required>
                 </div>
                 <div class="form-group">
                     <labe for="">Alamat</labe>
-                    <textarea name="alamat" class="form-control" rows="8"></textarea>
+                    <textarea name="alamat" class="form-control" rows="8" Required></textarea>
                 </div>
                 <div class="form-group">
                     <button type="submit" name="simpan" class="byn btn-success">Simpan</button>

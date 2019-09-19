@@ -7,8 +7,7 @@ if (isset($_POST['Login'])) {
     if ($a == "admin" && $b == "123456") {
         $_SESSION['login'] = $a;
         echo "<h1>Anda berhasil LOGIN</h1>";
-        echo "<h2>Klik <a href='latihan.php'>di sini</a>
-                untuk menuju ke halaman selanjutnya";
+        echo "<a href='assalaam.php'>Klik</a>";
     } else {
         die("username atau password anda salah 
         silahkan kembali login <a href=lo.php> Login </a>");
@@ -23,9 +22,6 @@ if (isset($_POST['Login'])) {
 
     <body>
         <nav>
-            <a href="latihan.php">latihan 1</a>
-            <a href="latihan2.php">latihan 2</a>
-            <a href="index.php">latihan 3</a>
         </nav>
         <form action="" method="post">
             <h2>Login Here...</h2>
